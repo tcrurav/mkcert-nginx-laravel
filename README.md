@@ -37,9 +37,9 @@ composer install
 php artisan serve
 ```
 
-Now that you are sure the project is working with laravel artisan server. It's time to start with the real work. 
+Now that you are sure the project is working with laravel artisan server it's time to start with the real work. 
 
-Let's install mkcert on Ubuntu 22.04 WSL2: (read mkcert project for more infos/options: https://github.com/FiloSottile/mkcert).
+Let's install mkcert on Ubuntu 22.04 WSL2: (read mkcert project for more infos/options) https://github.com/FiloSottile/mkcert).
 ```
 sudo apt install libnss3-tools
 sudo apt install mkcert
@@ -131,7 +131,7 @@ ssl_certificate_key /etc/ssl/private/localhost+2-key.pem;
 
 6. Start php and nginx. In my case I'm old styled and don't use the new systemctl.
 ```
-sudo service php8.1-fpm
+sudo service php8.1-fpm start
 sudo service nginx start
 ```
 
